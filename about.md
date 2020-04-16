@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 대하여 / About
+sidebar_link: true
 ---
 
 # Readingsnail's Impressum
