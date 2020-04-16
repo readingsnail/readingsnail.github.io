@@ -3,5 +3,5 @@
 # only main files contain this front matter, not partials.
 ---
 
-$sidebar-bg-color: #009348;
+$sidebar-bg-color: #009348 !default;
 @import "hydeout";
