@@ -1,6 +1,6 @@
 ---
 layout: category
-title: 삽질
+title: Article
 sidebar_link: true
 ---
 
