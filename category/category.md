@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>URL</key>
-	<string>x-bbedit-document:///untitled%20text?77</string>
-</dict>
-</plist>
+---
+layout: category
+title: 삽질 저장소
+sidebar_link: true
+---
+
+여러 삽질 거리들을 저장하는 공간
