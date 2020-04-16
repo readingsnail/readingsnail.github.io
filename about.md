@@ -1,4 +1,3 @@
-# Readingsnail's Impressum
 책읽는달팽, 혹은 책달의 은신처에 오신걸 환영합니다. 여기는 책읽는달팽의 Impressum 을 위해서(네 파이는 언제나 터지죠)를 만들었습니다. 여기 내용은 영어가 거진 주일겁니다.<br />
 Hello, this website is Impressum of Readingsnail. Raspberry Pi 2 is good server, but RPi2 is something not connected. so i made this sites
 
