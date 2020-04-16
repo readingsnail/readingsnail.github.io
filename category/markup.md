@@ -1,6 +1,6 @@
 ---
 layout: category
-title: 삽질저장
+title: 삽질
 sidebar_link: true
 ---
 
