@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Hydeout
 tagline:          'A Jekyll theme'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
+description:      '<a href="http://hyde.getpoole.com" target="_blank">Hyde</a> 테마의 재탄생<a href="http://jekyllrb.com" target="_blank">Jekyll</a>, 그리고 여러가지 보관처.'
 url:              https://readingsnail.github.io
 baseurl:          ''
 # the optional subpath of your site, e.g. "/blog"
