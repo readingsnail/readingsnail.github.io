@@ -22,7 +22,7 @@ First, configure app name, and region of heroku instance. very easy, huh?
 and second, very important thing is showing.
 ![caution-deploy.png](https://raw.githubusercontent.com/readingsnail/readingsnail.github.io/master/_screenshots/caution-deploy.png)
 
-Site_URL, and SSH Setting is that it. first Site_URL is Django's CSRF(Cross-site request forgery) Count-Attack thing, so corretly write URL. For example using myapp.herokuapp.com, need full url. and SSH Config is also important. Pontoon is using and Based VCS(Version Control System). it's support Git, Mecurial(HG) and Subversion. but I using git, so writed git config.
+Site_URL, and SSH Setting is that it. first Site_URL is Django's HTTP Host header attack Count-Attack thing, so corretly write URL. For example using myapp.herokuapp.com, need full url. and SSH Config is also important. Pontoon is using and Based VCS(Version Control System). it's support Git, Mecurial(HG) and Subversion. but I using git, so writed git config.
 
     Host github.com
 	     User git
