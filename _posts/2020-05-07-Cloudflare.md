@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 클라우드플레어와 헤로쿠
+title: Cloudflare와 Heroku
 categories: Article
-tags: Heroku Pontoon 삽질
+tags: Heroku 삽질
 ---
 
 [클라우드플레어](https://www.cloudflare.com)(Cloudflare)는 다들 알다시피 DNS랑 CDN을 제공해주는 서비스이다. 아 물론, SSL도 공짜로 지원해주고 말이다. 그래서 대다수가 많이 쓰는 서비스라고 볼 수 있겠다.
