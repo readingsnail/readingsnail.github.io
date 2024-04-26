@@ -60,7 +60,7 @@ plugins:
 
 author:
   name   : "Woosuk Park"
-  avatar : "/assets/images/profile.jpg"
+  avatar : "/assets/images/profile.png"
   bio    : "Maybe Twoflower"
   links:
     - label: "Website"
