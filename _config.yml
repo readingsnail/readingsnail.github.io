@@ -16,12 +16,10 @@
 title: Readingsnail's Attic
 email: bjh13579@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  책달의 다락방
 twitter_username: reading_snail
 github_username: readingsnail
-minimal_mistakes_skin: default
+minimal_mistakes_skin: mint
 search: true
 
 # Build settings
@@ -62,6 +60,7 @@ author:
   name   : "Woosuk Park"
   avatar : "/assets/images/profile.png"
   bio    : "Maybe Twoflower"
+  location : "Ulsan, Republic of Korea or Kivotos or Ankh-Morpork. Whatever"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"

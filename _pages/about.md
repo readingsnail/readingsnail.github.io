@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About"
+title: "저자에 대하여"
 ---
 
 지식(정보)에 관심있는 사람입니다. 에탄올, 커피, 얼 그레이, 책, 만년필, 지식, Discworld 등에 관심 있습니다.
