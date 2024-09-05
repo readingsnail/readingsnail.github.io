@@ -28,14 +28,13 @@ defaults:
 locale: ko
 email: twoflowers@readingsnail.pe.kr
 description: 책달의 다락방
-twitter_username: reading_snail
 github_username: readingsnail
 minimal_mistakes_skin: mint
 search: true
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 permalink: "/:categories/:title/"
-paginate: 5
+paginate: 4
 paginate_path: "/page:num/"
 include:
 - _pages
