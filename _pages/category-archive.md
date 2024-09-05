@@ -1,6 +1,7 @@
 ---
-title: "분류별 글"
+title: 분류별 글
+permalink: "/categories/"
 layout: categories
-permalink: /categories/
 author_profile: true
 ---
+

@@ -1,110 +1,78 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-locale: "ko"
+---
 title: Readingsnail's Attic
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: single
+    author_profile: true
+    read_time: true
+    comments: true
+    share: true
+    related: true
+- scope:
+    path: _pages
+    type: pages
+  values:
+    layout: single
+    author_profile: true
+locale: ko
 email: twoflowers@readingsnail.pe.kr
-description: >- # this means to ignore newlines until "baseurl:"
-  책달의 다락방
+description: 책달의 다락방
 twitter_username: reading_snail
 github_username: readingsnail
 minimal_mistakes_skin: mint
 search: true
-
-# Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+permalink: "/:categories/:title/"
+paginate: 5
+paginate_path: "/page:num/"
 include:
-  - _pages
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
+- _pages
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
-  - jekyll-scholar
-
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-gist
+- jekyll-feed
+- jemoji
+- jekyll-include-cache
+- jekyll-scholar
 author:
-  name   : "Woosuk Park"
-  avatar : "/assets/images/profile.png"
-  bio    : "Maybe Twoflower"
-  location : "Superposition Location"
+  name: Woosuk Park
+  avatar: "/assets/images/profile.png"
+  bio: Maybe Twoflower
+  location: Superposition Location
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.readingsnail.pe.kr"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/reading_snail"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/readingsnail"
-
+  - label: Website
+    icon: fas fa-fw fa-link
+    url: https://www.readingsnail.pe.kr
+  - label: Twitter
+    icon: fab fa-fw fa-twitter-square
+    url: https://twitter.com/reading_snail
+  - label: GitHub
+    icon: fab fa-fw fa-github
+    url: https://github.com/readingsnail
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/reading_snail"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/readingsnail"
-
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
+  - label: Twitter
+    icon: fab fa-fw fa-twitter-square
+    url: https://twitter.com/reading_snail
+  - label: GitHub
+    icon: fab fa-fw fa-github
+    url: https://github.com/readingsnail
 category_archive:
   type: liquid
-  path: /categories/
+  path: "/categories/"
 tag_archive:
   type: liquid
-  path: /tags/
+  path: "/tags/"
