@@ -12,19 +12,9 @@ export default defineConfig({
     sidebar: {
     links: [
       {
-        // The url of the website
         url: "https://github.com/readingsnail/impressium",
-
-        // The visible label of the link
         label: "GitHub",
-
-        // The icon name
-        // For a list of available icons, see https://lucide.dev/icons/
         icon: "github",
-
-        // If the link should open in a new tab (optional)
-        // Default: true
-        openInNewTab: false,
       },
     ],
   },
