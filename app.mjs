@@ -7,8 +7,7 @@ export default defineConfig({
     lang: "ko",
     editThisNote: {
     url: "https://github.com/readingsnail/impressium/edit/{{branch}}/{{file}}"
-    }
-
+    },
     sidebar: {
     links: [
       {
