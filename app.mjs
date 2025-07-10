@@ -9,10 +9,6 @@ export default defineConfig({
     url: "https://github.com/readingsnail/impressium/edit/{{branch}}/{{file}}"
     }
 
-    createNotesQuery({
-    tree: true,
-    });
-
     sidebar: {
     links: [
       {
