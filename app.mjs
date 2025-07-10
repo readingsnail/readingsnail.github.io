@@ -5,18 +5,17 @@ export default defineConfig({
     title: "책읽는달팽의 다락방",
     description: "소개와 여럿 이야기들",
     lang: "ko",
+
     editThisNote: {
+    url: "https://github.com/readingsnail/impressium/edit/{{branch}}/{{file}}"
+    }
 
-    // Example for GitHub
-    // Replace "johndoe/my-notes" with your repository
-    url: "https://github.com/readingsnail/impressium/edit/{{branch}}/{{file}}",
-
-    // If the link should open in a new tab (optional)
-    // Default: false
     openInNewTab: true,
+
     createNotesQuery({
     tree: true,
     });
+    
     sidebar: {
     sections: [
       {
