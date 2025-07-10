@@ -22,6 +22,7 @@ export default defineConfig({
                 groups: [
             {
                 query: createNotesQuery(),
+                    tags: ["소개"],
             },
             ],
             },
@@ -30,6 +31,7 @@ export default defineConfig({
                 groups: [
             {
                 query: createNotesQuery(),
+                    tags: ["소개"],
             },
             ],
             }, 
