@@ -36,7 +36,7 @@ export default defineConfig({
               tags: ["이야기"],
             }),
           },
-        ]
+    },
     },
   },
 });
