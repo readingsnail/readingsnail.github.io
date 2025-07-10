@@ -16,24 +16,23 @@ export default defineConfig({
         icon: "github",
     },
     ],
-      sidebar: {
     sections: [
-      {
-        label: "소개",
-        groups: [
-        {
-            query: createNotesQuery(),
-        },
-        ],
+            {
+                label: "소개",
+                groups: [
+            {
+                query: createNotesQuery(),
+            },
+            ],
+            },
+            {
+                label: "글들",
+                groups: [
+            {
+                query: createNotesQuery(),
+            },
+            ],
+            }, 
+        ], 
     },
-    {
-        label: "글들",
-        groups: [
-          {
-            query: createNotesQuery(),
-          },
-        ],
-      }, 
-    ],
-  }
-});
+})
