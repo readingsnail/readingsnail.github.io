@@ -17,7 +17,8 @@ export default defineConfig({
     },
     ],
     tags: {
-    map: {},
+    map: {"dynamic-content": "dynamic content", 
+    },
     },
     sections: [
             {
