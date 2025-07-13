@@ -29,15 +29,12 @@ export default defineConfig({
             },
             ],
             },
-            {
-                label: "글들",
-                groups: [
-            {
-                query: createNotesQuery(),
-                    tags: ["글들"],
-            },
-            ],
-            }, 
+           {
+            label: "글들",
+            query: createNotesQuery({
+              pattern: "^/Article/",
+            }),
+          },
         ], 
     },
 })
