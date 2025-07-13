@@ -22,18 +22,28 @@ export default defineConfig({
     },
     ],
     sections: [
-            {
+      {
+        label: "소개",
+        groups: [
+          {
             label: "소개",
             query: createNotesQuery({
-              pattern: "^/Impressium/"
+              pattern: "^/impressium/",
             }),
-            },
-           {
+          },
+        ],
+      },
+        {
+        label: "글들",
+        groups: [
+          {
             label: "글들",
             query: createNotesQuery({
               pattern: "^/Article/",
             }),
           },
-        ], 
-    },
-})
+        ],
+      }
+    ],
+  },
+});

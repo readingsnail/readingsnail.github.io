@@ -1,6 +1,6 @@
 ---
 sort: 2
-tags: Article
+tags: 글들
 ---
 
 현재 주로 하는 취미는 다음과 같습니다.
