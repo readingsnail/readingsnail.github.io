@@ -15,6 +15,13 @@ export default defineConfig({
         label: "GitHub / 소스코드",
         icon: "github",
     },
+    tags: {
+    map: {
+      // Map a tag to a different label
+      소개: "소개",
+      글: "글",
+    },
+  },
     ],
     sections: [
             {
