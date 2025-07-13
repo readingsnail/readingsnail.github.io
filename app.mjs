@@ -8,6 +8,7 @@ export default defineConfig({
     editThisNote: {
     url: "https://github.com/readingsnail/impressium/edit/{{branch}}/{{file}}"
     },
+    ignores: ["README.md"],
     tags: {
         map: {
             "dynamic-content": "dynamic content",

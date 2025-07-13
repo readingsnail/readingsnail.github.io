@@ -1,0 +1,5 @@
+블로그 메인 Git 저장소
+
+이 Git 저장소는 [블로그](https://www.readingsanil.pe.kr)의 주 저장소 입니다.
+
+또한, Eleventy Notes를 사용하고 있습니다. 사용법은 [여기](https://eleventy-notes.sandroroth.com/n/getting-started/) 에서 보실수 있습니다.
