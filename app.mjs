@@ -9,10 +9,7 @@ export default defineConfig({
     url: "https://github.com/readingsnail/impressium/edit/{{branch}}/{{file}}"
     },
     tags: {
-    map: {
-        "소개": "소개",
-        "글들": "글들",
-    },
+    map: {},
     },
     sidebar: {
     links: [
