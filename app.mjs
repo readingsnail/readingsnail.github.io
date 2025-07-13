@@ -10,7 +10,8 @@ export default defineConfig({
     },
     tags: {
     map: {
-        "dynamic-content": "dynamic content",
+        "소개": "소개",
+        "글들": "글들",
     },
     },
     sidebar: {
