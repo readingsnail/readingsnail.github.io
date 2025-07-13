@@ -26,7 +26,6 @@ export default defineConfig({
         label: "소개",
         groups: [
           {
-            label: "소개",
             query: createNotesQuery({
               pattern: "^/impressium/",
             }),
@@ -37,7 +36,6 @@ export default defineConfig({
         label: "글들",
         groups: [
           {
-            label: "글들",
             query: createNotesQuery({
               pattern: "^/Article/",
             }),
