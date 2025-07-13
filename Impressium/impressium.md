@@ -8,7 +8,3 @@ sort: 1
 - Github - 옆에 있는 그대로
 - 이 사용자에게 [E-Mail](mailto:bjh13579@gmail.com)를 보내실려면 링크를 클릭해주세요
 - [BlueSky](https://bsky.app/profile/twoflower.readingsnail.pe.kr) 계정은 다음과 같습니다.
-
-## 여러 기술이나 학력 ##
-- 경북대학교 사회학과 석사과정 수료
-- 정보기기운용기능사, 컴퓨터활용능력 2급, 워드프로세서 1급 등
