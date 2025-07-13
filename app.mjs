@@ -17,8 +17,7 @@ export default defineConfig({
     },
     ],
     tags: {
-    map: {"dynamic-content": "dynamic content", 
-    },
+    map: {},
     },
     sections: [
             {
@@ -35,7 +34,7 @@ export default defineConfig({
                 groups: [
             {
                 query: createNotesQuery(),
-                    tags: ["글"],
+                    tags: ["글들"],
             },
             ],
             }, 
