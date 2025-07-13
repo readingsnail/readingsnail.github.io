@@ -9,7 +9,9 @@ export default defineConfig({
     url: "https://github.com/readingsnail/impressium/edit/{{branch}}/{{file}}"
     },
     tags: {
-    map: {},
+        map: {
+            "dynamic-content": "dynamic content",
+        }
     },
     sidebar: {
     links: [
@@ -25,7 +27,7 @@ export default defineConfig({
             query: createNotesQuery({
               pattern: "^/Impressium/"
             }),
-            },,
+            },
            {
             label: "글들",
             query: createNotesQuery({
