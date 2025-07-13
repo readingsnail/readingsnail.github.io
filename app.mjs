@@ -10,7 +10,7 @@ export default defineConfig({
     },
     tags: {
     map: {
-        dynamic-content": "dynamic content
+        "dynamic-content": "dynamic content",
     },
     },
     sidebar: {
